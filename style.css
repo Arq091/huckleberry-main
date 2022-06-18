@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+/* cool scrollbar ngl*/
+body {
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.325);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* max width wrapper */
+.max-width-wrapper {
+  max-width: 777px;
+  margin: 0 auto;
+}
+
+/* header + intro chunk */
+header {
+  border-bottom: solid 7px hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  max-width: 500px;
+  padding-top: 96px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 16px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.intro-chunk strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+/* main + card */
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 88px 0;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 24px;
+  border-bottom: solid 7px hsl(0deg, 0%, 40%);
+  line-height: 24px;
+}
+
+.card p:last-child {
+  margin: 0;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 24px;
+  padding-left: 32px;
+  margin-left: -32px;
+  border-bottom: solid 7px hsl(45deg, 100%, 40%);
+}
